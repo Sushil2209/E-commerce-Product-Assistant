@@ -1,0 +1,5 @@
+{
+  "name": "Copy of E-commerce Assistant",
+  "description": "A chatbot that helps users discover and compare products using the Gemini API. It provides clear comparisons, pros, and cons in a friendly tone.",
+  "requestFramePermissions": []
+}
