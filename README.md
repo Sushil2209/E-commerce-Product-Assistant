@@ -2,7 +2,6 @@
 
 An **AI-powered chatbot** built using **Google AI Studio (Gemini API)** that helps users **find, compare, and recommend products** through natural conversation — just like chatting with your personal shopping expert! 🤖✨  
 
----
 
 ## 🚀 Project Overview
 
@@ -14,7 +13,6 @@ It then suggests or compares products, summarizes pros and cons, and gives frien
 > - “Compare iPhone 14 and Samsung S23.”
 > - “Suggest a smartwatch with long battery life.”
 
----
 
 ## 🧠 Features
 
@@ -36,7 +34,6 @@ It then suggests or compares products, summarizes pros and cons, and gives frien
 | **Database (Optional)** | Firebase / Firestore / JSON |
 | **Enhancements** | Vector Search, Semantic Embeddings |
 
----
 
 ## 🧩 System Flow
 
@@ -45,13 +42,5 @@ It then suggests or compares products, summarizes pros and cons, and gives frien
 3. **Data Retrieval** → Fetch products from Firestore / API / JSON  
 4. **Response Generation** → AI compares and explains best options  
 
----
 
-## 💬 Example System Prompt
-
-```text
-You are a helpful E-commerce Product Assistant.
-Your goal is to help users find and compare products based on their budget, preferences, and use case.
-Always respond with clear comparisons, short pros and cons, and friendly explanations.
-If product data is missing, guide users on how to choose the right product.
 
