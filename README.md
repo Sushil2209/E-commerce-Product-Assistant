@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🛍️ E-commerce Product Assistant
 
-# Run and deploy your AI Studio app
+An **AI-powered chatbot** built using **Google AI Studio (Gemini API)** that helps users **find, compare, and recommend products** through natural conversation — just like chatting with your personal shopping expert! 🤖✨  
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1ZUjC9Z_qcQOXBUxnZoG6jguRq81Ld03g
+## 🚀 Project Overview
 
-## Run Locally
+The **E-commerce Product Assistant** makes online shopping easier and smarter by allowing users to describe what they want in plain language.  
+It then suggests or compares products, summarizes pros and cons, and gives friendly shopping advice.
 
-**Prerequisites:**  Node.js
+> 💬 Example Queries:
+> - “Find me a laptop under ₹60,000 for video editing.”
+> - “Compare iPhone 14 and Samsung S23.”
+> - “Suggest a smartwatch with long battery life.”
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🧠 Features
+
+✅ Conversational Product Search — Finds items by category, budget, and purpose.  
+✅ Smart Comparisons — Highlights pros, cons, and specs.  
+✅ Personalized Suggestions — Adapts to user intent and style.  
+✅ Natural, Friendly Chat — Human-like tone and clarity.  
+✅ Extendable with Real APIs — Can connect to e-commerce APIs (Flipkart, Amazon, Shopify).  
+
+---
+
+## ⚙️ Tech Stack
+
+| Component | Technology |
+|------------|-------------|
+| **AI Engine** | Google Gemini (AI Studio) |
+| **Backend** | Python (Flask / FastAPI) |
+| **Frontend (Optional)** | Streamlit / React / HTML |
+| **Database (Optional)** | Firebase / Firestore / JSON |
+| **Enhancements** | Vector Search, Semantic Embeddings |
+
+---
+
+## 🧩 System Flow
+
+1. **User Input** → “Best laptops under ₹50,000”  
+2. **Gemini API** → Understands context, budget, category  
+3. **Data Retrieval** → Fetch products from Firestore / API / JSON  
+4. **Response Generation** → AI compares and explains best options  
+
+---
+
+## 💬 Example System Prompt
+
+```text
+You are a helpful E-commerce Product Assistant.
+Your goal is to help users find and compare products based on their budget, preferences, and use case.
+Always respond with clear comparisons, short pros and cons, and friendly explanations.
+If product data is missing, guide users on how to choose the right product.
+
